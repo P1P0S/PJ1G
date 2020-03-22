@@ -99,3 +99,21 @@ footer{
 .description h3{
     font-size: 24px;
 }
+
+@media screen and (max-width: 891px){
+    footer{
+        /* background-color: tomato; */
+        display: inline-block;
+    }
+    .formContainer{
+        float: none;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 891px){
+    .description{
+        max-width: none;
+        padding-top: 15px;
+    }
+}
