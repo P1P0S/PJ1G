@@ -25,5 +25,49 @@ header{
 }
 
 section{
+    padding: 20px;
+    background-image: url(./images/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.formContainer{
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
     color: white;
+    background-color: #48c5ce;
+    font-weight: bold;
+}
+
+select{
+    /* para remover a aparencia em todos os navegadores */
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    /* usando uma imagem de seta para ser padrao */
+    background-image: url(./images/arrow.jpg);
+    background-repeat: no-repeat;
+    /* calculando a posição exata da imagem,
+        primeiro o eixo X e depois o eixo Y*/
+    background-position: calc(100% - 10px) center;
 }
